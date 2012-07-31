@@ -1,0 +1,20 @@
+// Core variables and mixins
+@import "bootstrap/variables.less";
+@import "bootstrap/mixins.less";
+
+#content
+{
+    .makeRow()
+}
+#left-column
+{
+    .makeColumn(@columns: 3)
+}
+#main-column
+{
+    .makeColumn(@columns: 6)
+}
+#right-column
+{
+    .makeColumn(@columns: 3)
+}
