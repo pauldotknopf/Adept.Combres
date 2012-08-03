@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Adept.Combres</id>
+    <version>1.0</version>
+    <authors>Paul Knopf</authors>
+    <owners>Paul Knopf</owners>
+    <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>http://pknopf.com/blog/using-less-correctly-with-combres</projectUrl>
+    <iconUrl>http://lesscss.org/images/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Combres filter that builds .less files in a way that you would expect. You can use tildies or use relative selectors for imports. This is ideal for large css frameworks such as Twitter Bootstrap which as 10-15 .less files.</description>
+    <tags>Combres Less Adept</tags>
+    <dependencies>
+      <dependency id="combres" version="2.2.2.6" />
+    </dependencies>
+  </metadata>
+</package>

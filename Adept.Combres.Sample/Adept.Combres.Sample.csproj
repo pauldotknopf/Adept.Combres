@@ -186,6 +186,7 @@
     <None Include="Content\Bootstrap\utilities.less" />
     <None Include="Content\Bootstrap\variables.less" />
     <None Include="Content\Bootstrap\wells.less" />
+    <None Include="Scripts\script.coffee" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Adept.Combres\Adept.Combres.csproj">
