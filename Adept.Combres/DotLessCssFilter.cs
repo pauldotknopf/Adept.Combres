@@ -47,9 +47,14 @@ namespace Adept.Combres
 
             public string GetFilePath(string fileName)
             {
-                if (fileName.StartsWith("~"))
+                if (fileName.StartsWith("~") || fileName.StartsWith("/"))
                     return HttpContext.Current.Server.MapPath(fileName);
                 return HttpContext.Current.Server.MapPath(_startingDirectory + "/" + fileName);
+            }
+
+            public byte[] GetBinaryFileContents(string fileName)
+            {
+                return File.ReadAllBytes(GetFilePath(fileName));
             }
         }
     }
